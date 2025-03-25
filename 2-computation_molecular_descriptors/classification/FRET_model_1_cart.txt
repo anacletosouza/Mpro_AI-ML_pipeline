@@ -1,0 +1,115 @@
+|--- CalcChi3v <= -0.48
+|   |--- SMR_VSA7 <= -0.85
+|   |   |--- CalcChi2v <= -1.61
+|   |   |   |--- CalcNPR2 <= 0.38
+|   |   |   |   |--- class: active
+|   |   |   |--- CalcNPR2 >  0.38
+|   |   |   |   |--- class: inactive
+|   |   |--- CalcChi2v >  -1.61
+|   |   |   |--- CalcPMI1 <= -0.99
+|   |   |   |   |--- CalcPMI1 <= -1.01
+|   |   |   |   |   |--- class: active
+|   |   |   |   |--- CalcPMI1 >  -1.01
+|   |   |   |   |   |--- class: inactive
+|   |   |   |--- CalcPMI1 >  -0.99
+|   |   |   |   |--- CalcPBF <= 0.05
+|   |   |   |   |   |--- class: active
+|   |   |   |   |--- CalcPBF >  0.05
+|   |   |   |   |   |--- class: active
+|   |--- SMR_VSA7 >  -0.85
+|   |   |--- SPS <= -0.19
+|   |   |   |--- FpDensityMorgan1 <= 1.18
+|   |   |   |   |--- qed <= 0.19
+|   |   |   |   |   |--- MolLogP <= 0.22
+|   |   |   |   |   |   |--- CalcSpherocityIndex <= -1.72
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- CalcSpherocityIndex >  -1.72
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- MolLogP >  0.22
+|   |   |   |   |   |   |--- CalcPMI1 <= -0.71
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- CalcPMI1 >  -0.71
+|   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- qed >  0.19
+|   |   |   |   |   |--- CalcPBF <= -1.89
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- CalcPBF >  -1.89
+|   |   |   |   |   |   |--- class: active
+|   |   |   |--- FpDensityMorgan1 >  1.18
+|   |   |   |   |--- CalcAsphericity <= 1.19
+|   |   |   |   |   |--- class: active
+|   |   |   |   |--- CalcAsphericity >  1.19
+|   |   |   |   |   |--- class: inactive
+|   |   |--- SPS >  -0.19
+|   |   |   |--- CalcChi3v <= -0.50
+|   |   |   |   |--- Chi3n <= -1.23
+|   |   |   |   |   |--- class: active
+|   |   |   |   |--- Chi3n >  -1.23
+|   |   |   |   |   |--- class: inactive
+|   |   |   |--- CalcChi3v >  -0.50
+|   |   |   |   |--- class: active
+|--- CalcChi3v >  -0.48
+|   |--- Chi1n <= -0.36
+|   |   |--- Chi2v <= -0.58
+|   |   |   |--- MinEStateIndex <= 0.35
+|   |   |   |   |--- class: inactive
+|   |   |   |--- MinEStateIndex >  0.35
+|   |   |   |   |--- class: active
+|   |   |--- Chi2v >  -0.58
+|   |   |   |--- class: active
+|   |--- Chi1n >  -0.36
+|   |   |--- BalabanJ <= -0.29
+|   |   |   |--- TPSA <= -0.61
+|   |   |   |   |--- class: inactive
+|   |   |   |--- TPSA >  -0.61
+|   |   |   |   |--- CalcNumAtoms <= 2.72
+|   |   |   |   |   |--- BertzCT <= -0.66
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |--- BertzCT >  -0.66
+|   |   |   |   |   |   |--- SlogP_VSA6 <= 0.71
+|   |   |   |   |   |   |   |--- SMR_VSA10 <= 1.34
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- SMR_VSA10 >  1.34
+|   |   |   |   |   |   |   |   |--- LabuteASA <= 0.74
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- LabuteASA >  0.74
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- SlogP_VSA6 >  0.71
+|   |   |   |   |   |   |   |--- MinEStateIndex <= -1.87
+|   |   |   |   |   |   |   |   |--- TPSA <= 3.12
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- TPSA >  3.12
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- MinEStateIndex >  -1.87
+|   |   |   |   |   |   |   |   |--- CalcPMI3 <= 0.01
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- CalcPMI3 >  0.01
+|   |   |   |   |   |   |   |   |   |--- FpDensityMorgan1 <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- CalcPMI3 <= 0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- CalcPMI3 >  0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- FpDensityMorgan1 >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |--- CalcNumAtoms >  2.72
+|   |   |   |   |   |--- class: inactive
+|   |   |--- BalabanJ >  -0.29
+|   |   |   |--- FpDensityMorgan3 <= 0.75
+|   |   |   |   |--- FpDensityMorgan3 <= -0.53
+|   |   |   |   |   |--- SPS <= 0.12
+|   |   |   |   |   |   |--- Ipc <= -0.08
+|   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- Ipc >  -0.08
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- SPS >  0.12
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |--- FpDensityMorgan3 >  -0.53
+|   |   |   |   |   |--- Chi4v <= 0.16
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- Chi4v >  0.16
+|   |   |   |   |   |   |--- CalcChi2v <= 0.54
+|   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- CalcChi2v >  0.54
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |--- FpDensityMorgan3 >  0.75
+|   |   |   |   |--- class: inactive

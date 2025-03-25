@@ -1,0 +1,427 @@
+|--- qed <= 1.00
+|   |--- HallKierAlpha <= -1.25
+|   |   |--- TPSA <= 1.36
+|   |   |   |--- FpDensityMorgan1 <= -1.54
+|   |   |   |   |--- NumHAcceptors <= 0.58
+|   |   |   |   |   |--- HeavyAtomMolWt <= 0.83
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- HeavyAtomMolWt >  0.83
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |--- NumHAcceptors >  0.58
+|   |   |   |   |   |--- class: inactive
+|   |   |   |--- FpDensityMorgan1 >  -1.54
+|   |   |   |   |--- FpDensityMorgan1 <= -0.46
+|   |   |   |   |   |--- Kappa3 <= 1.02
+|   |   |   |   |   |   |--- MinAbsEStateIndex <= -0.52
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- MinAbsEStateIndex >  -0.52
+|   |   |   |   |   |   |   |--- AvgIpc <= 1.10
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- AvgIpc >  1.10
+|   |   |   |   |   |   |   |   |--- Chi0v <= 0.76
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- Chi0v >  0.76
+|   |   |   |   |   |   |   |   |   |--- BalabanJ <= -0.22
+|   |   |   |   |   |   |   |   |   |   |--- Kappa2 <= 1.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |   |--- Kappa2 >  1.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- BalabanJ >  -0.22
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- Kappa3 >  1.02
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- FpDensityMorgan1 >  -0.46
+|   |   |   |   |   |--- AvgIpc <= 1.75
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |--- AvgIpc >  1.75
+|   |   |   |   |   |   |--- class: inactive
+|   |   |--- TPSA >  1.36
+|   |   |   |--- Chi4v <= 0.67
+|   |   |   |   |--- MinAbsEStateIndex <= -0.60
+|   |   |   |   |   |--- class: active
+|   |   |   |   |--- MinAbsEStateIndex >  -0.60
+|   |   |   |   |   |--- class: inactive
+|   |   |   |--- Chi4v >  0.67
+|   |   |   |   |--- Kappa2 <= 2.83
+|   |   |   |   |   |--- MinAbsEStateIndex <= 0.60
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- MinAbsEStateIndex >  0.60
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- Kappa2 >  2.83
+|   |   |   |   |   |--- SPS <= -0.29
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- SPS >  -0.29
+|   |   |   |   |   |   |--- class: inactive
+|   |--- HallKierAlpha >  -1.25
+|   |   |--- Chi4v <= -0.13
+|   |   |   |--- NOCount <= -0.65
+|   |   |   |   |--- NumHAcceptors <= -0.11
+|   |   |   |   |   |--- FpDensityMorgan1 <= 0.79
+|   |   |   |   |   |   |--- Chi2n <= -0.35
+|   |   |   |   |   |   |   |--- MaxAbsEStateIndex <= 0.11
+|   |   |   |   |   |   |   |   |--- BalabanJ <= -0.03
+|   |   |   |   |   |   |   |   |   |--- MaxAbsEStateIndex <= -0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- MaxAbsEStateIndex >  -0.01
+|   |   |   |   |   |   |   |   |   |   |--- FpDensityMorgan1 <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- FpDensityMorgan1 >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- BalabanJ >  -0.03
+|   |   |   |   |   |   |   |   |   |--- Kappa3 <= -0.50
+|   |   |   |   |   |   |   |   |   |   |--- BertzCT <= -0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- BertzCT >  -0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Kappa3 >  -0.50
+|   |   |   |   |   |   |   |   |   |   |--- MolMR <= -0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- MolMR >  -0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- MaxAbsEStateIndex >  0.11
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- Chi2n >  -0.35
+|   |   |   |   |   |   |   |--- HallKierAlpha <= 0.14
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- HallKierAlpha >  0.14
+|   |   |   |   |   |   |   |   |--- AvgIpc <= -0.82
+|   |   |   |   |   |   |   |   |   |--- TPSA <= -0.56
+|   |   |   |   |   |   |   |   |   |   |--- qed <= 0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |   |--- qed >  0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- TPSA >  -0.56
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- AvgIpc >  -0.82
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- FpDensityMorgan1 >  0.79
+|   |   |   |   |   |   |--- TPSA <= -1.21
+|   |   |   |   |   |   |   |--- BertzCT <= -2.65
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- BertzCT >  -2.65
+|   |   |   |   |   |   |   |   |--- Chi0n <= -1.07
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- Chi0n >  -1.07
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- TPSA >  -1.21
+|   |   |   |   |   |   |   |--- qed <= 0.25
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- qed >  0.25
+|   |   |   |   |   |   |   |   |--- FpDensityMorgan2 <= 1.01
+|   |   |   |   |   |   |   |   |   |--- MaxAbsEStateIndex <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- HeavyAtomMolWt <= -0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- HeavyAtomMolWt >  -0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- MaxAbsEStateIndex >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- FpDensityMorgan2 >  1.01
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- NumHAcceptors >  -0.11
+|   |   |   |   |   |--- class: active
+|   |   |   |--- NOCount >  -0.65
+|   |   |   |   |--- AvgIpc <= -0.43
+|   |   |   |   |   |--- TPSA <= -0.04
+|   |   |   |   |   |   |--- BalabanJ <= 0.45
+|   |   |   |   |   |   |   |--- MolLogP <= -0.46
+|   |   |   |   |   |   |   |   |--- ExactMolWt <= -0.50
+|   |   |   |   |   |   |   |   |   |--- NumValenceElectrons <= -0.43
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- NumValenceElectrons >  -0.43
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- ExactMolWt >  -0.50
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- MolLogP >  -0.46
+|   |   |   |   |   |   |   |   |--- Kappa2 <= -0.70
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- Kappa2 >  -0.70
+|   |   |   |   |   |   |   |   |   |--- qed <= 0.89
+|   |   |   |   |   |   |   |   |   |   |--- SPS <= -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- SPS >  -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- qed >  0.89
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- BalabanJ >  0.45
+|   |   |   |   |   |   |   |--- BertzCT <= -2.12
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- BertzCT >  -2.12
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |--- TPSA >  -0.04
+|   |   |   |   |   |   |--- BalabanJ <= -0.21
+|   |   |   |   |   |   |   |--- Chi0 <= 0.01
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- Chi0 >  0.01
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- BalabanJ >  -0.21
+|   |   |   |   |   |   |   |--- TPSA <= 0.22
+|   |   |   |   |   |   |   |   |--- Kappa2 <= -0.54
+|   |   |   |   |   |   |   |   |   |--- Chi4n <= -0.77
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- Chi4n >  -0.77
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- Kappa2 >  -0.54
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- TPSA >  0.22
+|   |   |   |   |   |   |   |   |--- TPSA <= 0.37
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- TPSA >  0.37
+|   |   |   |   |   |   |   |   |   |--- MolLogP <= -3.68
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- MolLogP >  -3.68
+|   |   |   |   |   |   |   |   |   |   |--- MolLogP <= -2.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- MolLogP >  -2.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- AvgIpc >  -0.43
+|   |   |   |   |   |--- FpDensityMorgan3 <= 0.91
+|   |   |   |   |   |   |--- Chi2v <= -1.07
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- Chi2v >  -1.07
+|   |   |   |   |   |   |   |--- Chi4v <= -0.49
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- Chi4v >  -0.49
+|   |   |   |   |   |   |   |   |--- AvgIpc <= 0.06
+|   |   |   |   |   |   |   |   |   |--- Chi2v <= -0.44
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- Chi2v >  -0.44
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- AvgIpc >  0.06
+|   |   |   |   |   |   |   |   |   |--- HeavyAtomMolWt <= -0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- HeavyAtomMolWt >  -0.53
+|   |   |   |   |   |   |   |   |   |   |--- NumValenceElectrons <= -0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- NumValenceElectrons >  -0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |--- FpDensityMorgan3 >  0.91
+|   |   |   |   |   |   |--- MaxAbsEStateIndex <= 0.03
+|   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- MaxAbsEStateIndex >  0.03
+|   |   |   |   |   |   |   |--- MaxAbsEStateIndex <= 0.04
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- MaxAbsEStateIndex >  0.04
+|   |   |   |   |   |   |   |   |--- MolMR <= -0.44
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- MolMR >  -0.44
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |--- Chi4v >  -0.13
+|   |   |   |--- qed <= -1.98
+|   |   |   |   |--- MinAbsEStateIndex <= -0.06
+|   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- MinAbsEStateIndex >  -0.06
+|   |   |   |   |   |--- class: active
+|   |   |   |--- qed >  -1.98
+|   |   |   |   |--- SPS <= -0.76
+|   |   |   |   |   |--- Kappa3 <= 0.10
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- Kappa3 >  0.10
+|   |   |   |   |   |   |--- HallKierAlpha <= -0.84
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- HallKierAlpha >  -0.84
+|   |   |   |   |   |   |   |--- FpDensityMorgan2 <= -1.00
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- FpDensityMorgan2 >  -1.00
+|   |   |   |   |   |   |   |   |--- MaxAbsEStateIndex <= 0.53
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- MaxAbsEStateIndex >  0.53
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |--- SPS >  -0.76
+|   |   |   |   |   |--- LabuteASA <= -0.16
+|   |   |   |   |   |   |--- Chi0v <= -0.28
+|   |   |   |   |   |   |   |--- TPSA <= -0.73
+|   |   |   |   |   |   |   |   |--- AvgIpc <= -0.38
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- AvgIpc >  -0.38
+|   |   |   |   |   |   |   |   |   |--- Chi1n <= -0.54
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- Chi1n >  -0.54
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- TPSA >  -0.73
+|   |   |   |   |   |   |   |   |--- AvgIpc <= 0.69
+|   |   |   |   |   |   |   |   |   |--- BalabanJ <= 0.93
+|   |   |   |   |   |   |   |   |   |   |--- FpDensityMorgan3 <= -0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |   |--- FpDensityMorgan3 >  -0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- BalabanJ >  0.93
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- AvgIpc >  0.69
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- Chi0v >  -0.28
+|   |   |   |   |   |   |   |--- Chi1v <= -0.24
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- Chi1v >  -0.24
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |--- LabuteASA >  -0.16
+|   |   |   |   |   |   |--- SPS <= 0.01
+|   |   |   |   |   |   |   |--- BertzCT <= 0.92
+|   |   |   |   |   |   |   |   |--- NumHAcceptors <= -0.57
+|   |   |   |   |   |   |   |   |   |--- Chi4n <= 0.79
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- Chi4n >  0.79
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- NumHAcceptors >  -0.57
+|   |   |   |   |   |   |   |   |   |--- Chi0 <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- ExactMolWt <= -0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |   |--- ExactMolWt >  -0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- Chi0 >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- HallKierAlpha <= -1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- HallKierAlpha >  -1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- BertzCT >  0.92
+|   |   |   |   |   |   |   |   |--- MinAbsEStateIndex <= -0.11
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- MinAbsEStateIndex >  -0.11
+|   |   |   |   |   |   |   |   |   |--- MinEStateIndex <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- Kappa1 <= 1.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- Kappa1 >  1.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- MinEStateIndex >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- SPS >  0.01
+|   |   |   |   |   |   |   |--- BertzCT <= 0.45
+|   |   |   |   |   |   |   |   |--- Chi4n <= 1.58
+|   |   |   |   |   |   |   |   |   |--- BertzCT <= 0.44
+|   |   |   |   |   |   |   |   |   |   |--- HallKierAlpha <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- HallKierAlpha >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- BertzCT >  0.44
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- Chi4n >  1.58
+|   |   |   |   |   |   |   |   |   |--- RingCount <= -0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- RingCount >  -0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- BertzCT >  0.45
+|   |   |   |   |   |   |   |   |--- Chi4v <= 0.69
+|   |   |   |   |   |   |   |   |   |--- Chi2v <= 0.17
+|   |   |   |   |   |   |   |   |   |   |--- Chi4v <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- Chi4v >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- Chi2v >  0.17
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- Chi4v >  0.69
+|   |   |   |   |   |   |   |   |   |--- LabuteASA <= 0.23
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |--- LabuteASA >  0.23
+|   |   |   |   |   |   |   |   |   |   |--- Chi2n <= 1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- Chi2n >  1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|--- qed >  1.00
+|   |--- qed <= 1.24
+|   |   |--- MinAbsEStateIndex <= 0.37
+|   |   |   |--- Chi4v <= -0.86
+|   |   |   |   |--- FpDensityMorgan1 <= 0.45
+|   |   |   |   |   |--- MinEStateIndex <= 0.76
+|   |   |   |   |   |   |--- FpDensityMorgan3 <= -0.16
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- FpDensityMorgan3 >  -0.16
+|   |   |   |   |   |   |   |--- HallKierAlpha <= 0.28
+|   |   |   |   |   |   |   |   |--- Kappa3 <= -0.63
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- Kappa3 >  -0.63
+|   |   |   |   |   |   |   |   |   |--- Chi4n <= -0.74
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- Chi4n >  -0.74
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- HallKierAlpha >  0.28
+|   |   |   |   |   |   |   |   |--- FpDensityMorgan1 <= -0.02
+|   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |--- FpDensityMorgan1 >  -0.02
+|   |   |   |   |   |   |   |   |   |--- LabuteASA <= -0.89
+|   |   |   |   |   |   |   |   |   |   |--- LabuteASA <= -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |   |--- LabuteASA >  -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- LabuteASA >  -0.89
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- MinEStateIndex >  0.76
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- FpDensityMorgan1 >  0.45
+|   |   |   |   |   |--- FpDensityMorgan3 <= 1.15
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |--- FpDensityMorgan3 >  1.15
+|   |   |   |   |   |   |--- Chi2n <= -0.81
+|   |   |   |   |   |   |   |--- FpDensityMorgan1 <= 1.09
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- FpDensityMorgan1 >  1.09
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- Chi2n >  -0.81
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |--- Chi4v >  -0.86
+|   |   |   |   |--- Kappa1 <= -0.50
+|   |   |   |   |   |--- AvgIpc <= 0.06
+|   |   |   |   |   |   |--- Chi0v <= -0.71
+|   |   |   |   |   |   |   |--- HallKierAlpha <= 1.91
+|   |   |   |   |   |   |   |   |--- SlogP_VSA2 <= -0.84
+|   |   |   |   |   |   |   |   |   |--- Chi1 <= -0.76
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- Chi1 >  -0.76
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- SlogP_VSA2 >  -0.84
+|   |   |   |   |   |   |   |   |   |--- BalabanJ <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- SlogP_VSA2 <= -0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |   |   |   |--- SlogP_VSA2 >  -0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- BalabanJ >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- HallKierAlpha >  1.91
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- Chi0v >  -0.71
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- AvgIpc >  0.06
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- Kappa1 >  -0.50
+|   |   |   |   |   |--- MinEStateIndex <= -1.85
+|   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- MinEStateIndex >  -1.85
+|   |   |   |   |   |   |--- class: inactive
+|   |   |--- MinAbsEStateIndex >  0.37
+|   |   |   |--- class: inactive
+|   |--- qed >  1.24
+|   |   |--- Kappa3 <= -0.95
+|   |   |   |--- Chi3n <= 1.10
+|   |   |   |   |--- class: active
+|   |   |   |--- Chi3n >  1.10
+|   |   |   |   |--- class: inactive
+|   |   |--- Kappa3 >  -0.95
+|   |   |   |--- MinEStateIndex <= 1.28
+|   |   |   |   |--- FpDensityMorgan3 <= 1.47
+|   |   |   |   |   |--- Chi1v <= -0.91
+|   |   |   |   |   |   |--- Chi1n <= -0.84
+|   |   |   |   |   |   |   |--- TPSA <= -0.50
+|   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |   |--- TPSA >  -0.50
+|   |   |   |   |   |   |   |   |--- TPSA <= -0.48
+|   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |--- TPSA >  -0.48
+|   |   |   |   |   |   |   |   |   |--- AvgIpc <= -1.48
+|   |   |   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |   |   |--- AvgIpc >  -1.48
+|   |   |   |   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |   |--- Chi1n >  -0.84
+|   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |--- Chi1v >  -0.91
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |--- FpDensityMorgan3 >  1.47
+|   |   |   |   |   |--- MinAbsEStateIndex <= -0.09
+|   |   |   |   |   |   |--- MinEStateIndex <= 0.71
+|   |   |   |   |   |   |   |--- HeavyAtomMolWt <= -0.83
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |   |--- HeavyAtomMolWt >  -0.83
+|   |   |   |   |   |   |   |   |--- class: active
+|   |   |   |   |   |   |--- MinEStateIndex >  0.71
+|   |   |   |   |   |   |   |--- class: inactive
+|   |   |   |   |   |--- MinAbsEStateIndex >  -0.09
+|   |   |   |   |   |   |--- class: inactive
+|   |   |   |--- MinEStateIndex >  1.28
+|   |   |   |   |--- class: active
