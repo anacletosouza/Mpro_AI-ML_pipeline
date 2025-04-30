@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import re
 
-output_dir = "/home/anacleto/Desktop/manuscript_Mpro/results/1-preprocessing/"
+output_dir = "/home/anacleto/davinci/projects/htvs/1-preprocessing/"
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
@@ -100,10 +100,10 @@ df_FRET_fluor_SPR = df
 
 #path = f"{output_dir}2-figures/"
 
-df_FRET_dropduplic_reg = df_FRET.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
-df_fluor_dropduplic_reg = df_fluor.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
-df_SPR_dropduplic_reg = df_SPR.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
-df_FRET_fluor_SPR_dropduplic_reg = df_FRET_fluor_SPR.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
+#df_FRET_dropduplic_reg = df_FRET.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
+#df_fluor_dropduplic_reg = df_fluor.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
+#df_SPR_dropduplic_reg = df_SPR.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
+#df_FRET_fluor_SPR_dropduplic_reg = df_FRET_fluor_SPR.dropna(subset=["pIC50_updated"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
 
 os.makedirs(f"{output_dir}1-datasets/", exist_ok=True)
 
@@ -133,10 +133,10 @@ df_fluor = df[df["assay_type"] == 'FLUOR']
 df_SPR = df[df["assay_type"] == "SPR"]
 df_FRET_fluor_SPR = df
 
-df_FRET_dropduplic_class = df_FRET.dropna(subset=["pIC50_class"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
-df_fluor_dropduplic_class = df_fluor.dropna(subset=["pIC50_class"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
-df_SPR_dropduplic_class = df_SPR.dropna(subset=["pIC50_class"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
-df_FRET_fluor_SPR_dropduplic_class = df_FRET_fluor_SPR.dropna(subset=["pIC50_class"]).sort_values(by=["pIC50_updated"], ascending=False).drop_duplicates(subset=["SMILES"], keep="first")
+df_FRET_dropduplic_class = df_FRET.dropna(subset=["pIC50_class"]).sort_values(by=['pEC50_updated', 'pIC50_updated'], ascending=False).drop_duplicates(subset=["name"], keep="first").drop_duplicates(subset=["name_article"], keep="first").drop_duplicates(subset=["SMILES"], keep="first") 
+df_fluor_dropduplic_class = df_fluor.dropna(subset=["pIC50_class"]).sort_values(by=['pEC50_updated', 'pIC50_updated'], ascending=False).drop_duplicates(subset=["name"], keep="first").drop_duplicates(subset=["name_article"], keep="first").drop_duplicates(subset=["SMILES"], keep="first") 
+df_SPR_dropduplic_class = df_SPR.dropna(subset=["pIC50_class"]).sort_values(by=['pEC50_updated', 'pIC50_updated'], ascending=False).drop_duplicates(subset=["name"], keep="first").drop_duplicates(subset=["name_article"], keep="first").drop_duplicates(subset=["SMILES"], keep="first") 
+df_FRET_fluor_SPR_dropduplic_class = df_FRET_fluor_SPR.dropna(subset=["pIC50_class"]).sort_values(by=['pEC50_updated', 'pIC50_updated'], ascending=False).drop_duplicates(subset=["name"], keep="first").drop_duplicates(subset=["name_article"], keep="first").drop_duplicates(subset=["SMILES"], keep="first") 
 
 df_FRET_dropduplic_class.to_csv(f"{path}FRET_dropduplic_class.tsv", sep="\t", index=False)
 df_fluor_dropduplic_class.to_csv(f"{path}fluor_dropduplic_class.tsv", sep="\t", index=False)
