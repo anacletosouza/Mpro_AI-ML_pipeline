@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import warnings
 
-pathway_dir = "your_pathway"
+pathway_dir = "/home/anacleto/davinci/projects/htvs"
 warnings.filterwarnings(action="ignore", message="'Series.swapaxes' is deprecated and will be removed in a future version. Please use 'Series.transpose' instead.", category=FutureWarning)
 
 packages_dir = f'{pathway_dir}/packages/'
@@ -245,7 +245,7 @@ def filter_col_correl(df_r, threshold=0.4, target_col="pIC50_class"):
     
     upper_triangle = correlation_matrix.where(np.triu(np.ones(correlation_matrix.shape), k=1).astype(bool))
     
-    to_drop = [column for column in upper_triangle.columns if any(abs(upper_triangle[column]) >= threshold)]
+    to_drop = [column for column in upper_triangle.columns if any(abs(upper_triangle[column]) > threshold)]
 
     df_reduced = df_r.drop(columns=to_drop)
 
