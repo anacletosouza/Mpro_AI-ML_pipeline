@@ -1,26 +1,57 @@
-1. Contextualization of the research project in Brazil
+SARS-CoV-2 Main Protease Inhibitor Discovery Framework
+1. Project Overview
+Since the emergence of the COVID-19 pandemic, SARS-CoV-2 variants with increased transmissibility and immune evasion have driven successive waves of infection. As of 2025, Omicron subvariants dominate globally, with region-specific prevalence patterns. At the molecular level, viral replication depends on the main protease (Mpro), a homodimeric cysteine protease comprising three distinct domains. The catalytic triad—His41, Cys145, and Asp187—plays a central role in the proteolytic process.
 
-Since the onset of the COVID-19 pandemic, over 777 million cases and 7.05 million deaths have been reported globally, despite vaccination efforts (WHO, 2025). Variants of concern (VOCs) such as Alpha, Beta, Gamma, Delta, and Omicron have shown increased transmissibility and immune evasion compared to the original Wuhan strain (DE SOUZA, Anacleto S. et al., 2022; GISAID, 2025). As of January 2025, Omicron subvariants accounted for nearly 100% of global cases, with XEC (47%) and KP.3.1.1 (23%) being predominant, with varying distributions across regions such as Brazil and Europe  (GISAID, 2025). At the molecular level, SARS-CoV-2 infection results in the release and translation of viral RNA into polypeptides pp1a and pp1ab, which are processed by the PLpro and 3CLpro (Mpro) proteases, with Mpro being essential for viral replication (AMORIM, V. M. de F. et al., 2024). Its active form is a homodimer, in which each protomer consists of three domains, known as domains I, II, and III. Our previous study suggests that His41-Cys145-Asp187 compose the catalytic triad of Mpro, being essential for the catalytic process (AMORIM, V. M. de F. et al., 2024). Due to this structure, over 55,429 compounds have been tested against Mpro (more details in results). However, few have advanced to clinical trials. For example, Boceprevir demonstrated promising affinity but faces pharmacokinetic (PK) limitations, such as CYP3A4 inhibition. To address these challenges, combinations like Nirmatrelvir and Ritonavir (Paxlovid) have been developed to optimize therapeutic efficacy. 
-Herein, we investigated the interplay between PK and pharmacodynamic (PD) properties using machine learning (ML) and molecular dynamics (MD) simulations. We developed classification models employing algorithms such as Gaussian Naïve Bayes, Support Vector Machines, Classification and Regression Trees, and Multilayer Perceptrons. These models, trained on IC50 data from FRET assays, fluorescence assays, and mixed datasets (FRET, fluorescence, and SPR assays), achieved accuracies ranging from 0.72 to 0.96, with external validation accuracies of 0.75 to 0.83 on chemically diverse datasets. Our analysis revealed that inhibitors with high pIC50 values (-log pIC50) are associated with hydrophilic features that enhance Mpro binding but compromise PK properties, while hydrophobic residues are critical for stabilizing interactions in the S2 subsite, as confirmed by MD simulations. These findings highlight the importance of targeting the S2 subsite to balance PD and PK properties and provide a computational framework for the rational design of Mpro inhibitors, offering a pathway for preclinical optimization of SARS-CoV-2 therapeutics.
+Although over 55,000 compounds have been tested against Mpro, clinical translation remains limited due to pharmacokinetic (PK) challenges. Agents like Boceprevir showed promising binding affinity but poor PK profiles, necessitating combination therapies such as Nirmatrelvir and Ritonavir (Paxlovid) to enhance bioavailability.
 
-2. General and specific objectives
+This project investigates the interplay between pharmacodynamic (PD) and PK properties of Mpro inhibitors through an integrated computational pipeline. We employed supervised machine learning (ML) algorithms and molecular dynamics (MD) simulations to develop predictive models and uncover key molecular features driving efficacy and drug-like behavior.
 
-2.1. General objective 
+Classification models—including Gaussian Naïve Bayes, Support Vector Machines, Decision Trees, and Multilayer Perceptrons—were trained on IC₅₀ data from diverse biochemical assays. These models achieved accuracies ranging from 0.72 to 0.96, with external validation scores between 0.75 and 0.83 on chemically diverse datasets. High-affinity inhibitors tended to exhibit hydrophilic features favoring Mpro binding but with suboptimal PK profiles. Conversely, hydrophobic moieties played a critical role in stabilizing interactions within the S2 subsite, as confirmed by MD simulations.
 
-The primary goal of this study was to develop an integrated computational framework combining ligand- and structure-based drug design approaches to discover and optimize potent SARS-CoV-2 main protease (Mpro) inhibitors. This involved systematic data preprocessing, machine learning (ML) modeling, molecular docking, and molecular dynamics (MD) simulations to enhance the prediction and understanding of inhibitor binding mechanisms. This pipeline will be fundamental in high-throughput virtual screening due to its high computational scalability of the ZINC database.
+Our results emphasize the importance of balancing PD and PK properties during lead optimization and offer a computational framework for rational design of SARS-CoV-2 Mpro inhibitors.
 
-2.2. Specific objectives
+2. Objectives
+2.1 General Objective
+To develop a scalable computational framework that integrates ligand-based and structure-based drug design approaches for the discovery and optimization of potent SARS-CoV-2 Mpro inhibitors. This includes data preprocessing, machine learning, molecular docking, and molecular dynamics simulations, supporting high-throughput virtual screening of large chemical libraries (e.g., ZINC database).
 
-Dataset Construction and Preprocessing. (1) Curate and clean a large dataset of SARS-CoV-2 Mpro inhibitors from published data; (2) Transform IC50 values into pIC50 and refine binding constant estimates (Ki, KD, KM) by accounting for experimental conditions; (3) Develop computational methods for handling missing, censored, or ambiguous inhibition data.
+2.2 Specific Objectives
+Dataset Construction and Preprocessing
 
-Computational feature engineering. (1) Calculate 2D and 3D molecular descriptors using parallelized functions for efficiency; (2) Apply dimensionality reduction, correlation filtering, and imputation techniques to optimize feature selection and prevent overfitting.
+Curate and clean a comprehensive dataset of Mpro inhibitors.
 
-Machine learning model development. (1) Train and evaluate multiple ML models (Gaussian Naïve Bayes, Support Vector Machines, Decision Trees, Multilayer Perceptrons) using k-fold cross-validation and hyperparameter optimization; (2) Assess model performance based on accuracy and retain high-performing models for downstream analysis. 
+Convert IC₅₀ values to pIC₅₀ and refine binding constant estimates (Kᵢ, Kᴅ, Kₘ) based on assay conditions.
 
-Data visualization and dimensionality reduction. (1) Utilize Principal Component Analysis (PCA) for decreasing high-dimensional molecular descriptor data and investigate chemical relationships with biological activity; (2) Use statistical inference in order to build confidence intervals and interpret dataset; (3) Use of histogram, boxplot, among other, further tables to extract data information.
+Develop methods to manage missing, censored, or ambiguous inhibition data.
 
-Molecular docking and dynamics simulations. (1) Perform molecular docking to predict inhibitor binding poses and binding affinity; (2) Conduct MD simulations to evaluate protein-ligand stability, binding free energy (free-energy landscape), and dynamic interactions over 150 ns.
+Computational Feature Engineering
 
-Statistical and chemoinformatics analysis. (1) Interpret ML decision rules to identify key molecular descriptors influencing inhibitory activity; (2) Compute confidence intervals for statistically significant subpopulations of inhibitors.
+Calculate 2D and 3D molecular descriptors using parallelized algorithms.
 
-Integrated framework. Combine ligand-based (ML) and structure-based (molecular docking/MD) approaches to confirm predictions and support antiviral compound optimization.
+Apply dimensionality reduction, correlation filtering, and imputation to enhance model robustness.
+
+Machine Learning Model Development
+
+Train multiple ML models using k-fold cross-validation and hyperparameter tuning.
+
+Retain high-performance models based on accuracy for downstream integration.
+
+Data Visualization and Dimensionality Reduction
+
+Use Principal Component Analysis (PCA) to reduce descriptor dimensionality and explore chemical-biological relationships.
+
+Employ statistical inference and graphical tools (e.g., histograms, boxplots) for exploratory data analysis.
+
+Molecular Docking and Dynamics Simulations
+
+Predict binding poses and affinity of inhibitors via docking.
+
+Perform 150-ns MD simulations to assess binding free energy and protein–ligand stability.
+
+Statistical and Chemoinformatics Analysis
+
+Interpret decision rules from ML models to identify key molecular features.
+
+Compute confidence intervals for relevant inhibitor subgroups.
+
+Integrated Framework Development
+Combine ligand-based (ML) and structure-based (docking/MD) approaches to validate predictions and guide antiviral compound optimization.
