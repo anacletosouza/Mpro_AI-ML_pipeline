@@ -8,7 +8,9 @@ Although over **55,000 compounds** have been tested against M<sub>pro</sub>, cli
 
 This project investigates the interplay between **pharmacodynamic (PD)** and **PK** properties of M<sub>pro</sub> inhibitors through an **integrated computational pipeline**. We employed supervised **machine learning (ML)** algorithms and **molecular dynamics (MD)** simulations to develop predictive models and uncover key molecular features driving efficacy and drug-like behavior.
 
-Classification models — including **Gaussian Naïve Bayes**, **Support Vector Machines**, **Decision Trees**, and **Multilayer Perceptrons** — were trained on IC<sub>50</sub> data from diverse biochemical assays. These models achieved accuracies ranging from **0.72 to 0.96**, with external validation scores between **0.75 and 0.83** on chemically diverse datasets. High-affinity inhibitors tended to exhibit **hydrophilic features** favoring M<sub>pro</sub> binding but with suboptimal PK profiles. Conversely, **hydrophobic moieties** played a critical role in stabilizing interactions within the **S2 subsite**, as confirmed by MD simulations.
+Classification models — including **Gaussian Naïve Bayes**, **Support Vector Machines**, **Decision Trees**, **Logistic regression** and **Multilayer Perceptrons** — were trained on IC<sub>50</sub> data from diverse biochemical assays. These models achieved good accuracies on chemically diverse datasets. High-affinity inhibitors tended to exhibit **hydrophilic features** favoring M<sub>pro</sub> binding but with suboptimal PK profiles. Conversely, **hydrophobic moieties** played a critical role in stabilizing interactions within the **S2 subsite**, as confirmed by MD simulations.
+
+Next, we evaluated all models by ROC (Receiver Operating Characteristic) curve in order to verify performance of these models. Only Logistic regression and Support Vector Machine presented satisfactory results.
 
 Our results emphasize the importance of **balancing PD and PK properties** during lead optimization and offer a computational framework for **rational design of SARS-CoV-2 M<sub>pro</sub> inhibitors**.
 
