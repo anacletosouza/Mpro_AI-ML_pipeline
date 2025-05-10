@@ -2,39 +2,38 @@ import pandas as pd
 import numpy as np
 from scipy import stats
 
-def calcular_estatisticas(df):
-    # Copia para evitar alterações no original
+def compute_descriptor_statistics(df):
+    # Copy to avoid modifying the original DataFrame
     df_copy = df.copy()
 
-    # Extrai nomes das colunas que contêm os valores numéricos (exclui a coluna 'mol_desc')
-    colunas_valores = df_copy.columns.drop('mol_desc')
+    # Extract only the compound columns (exclude 'mol_desc')
+    value_columns = df_copy.columns.drop('mol_desc')
 
-    # Lista para armazenar os resultados
-    resultados = []
+    results = []
 
-    # Itera sobre cada linha (cada descritor)
+    # Iterate over each descriptor (row)
     for _, row in df_copy.iterrows():
-        desc = row['mol_desc']
-        valores = row[colunas_valores].astype(float).values
+        descriptor = row['mol_desc']
+        values = row[value_columns].astype(float).values
 
-        mean = np.mean(valores)
-        sd = np.std(valores, ddof=1)  # desvio padrão amostral
-        n = len(valores)
-        
-        # Intervalo de confiança de 95%
-        t_crit = stats.t.ppf(0.975, df=n-1)  # t de Student
+        mean = np.mean(values)
+        sd = np.std(values, ddof=1)  # sample standard deviation
+        n = len(values)
+
+        # Compute 95% confidence interval
+        t_crit = stats.t.ppf(0.975, df=n-1)  # Student's t critical value
         margin_error = t_crit * sd / np.sqrt(n)
-        IC95_inf = mean - margin_error
-        IC95_sup = mean + margin_error
+        CI95_lower = mean - margin_error
+        CI95_upper = mean + margin_error
 
-        resultados.append({
-            'mol_desc': desc,
-            'IC95_inf': IC95_inf,
-            'IC95_sup': IC95_sup,
+        results.append({
+            'mol_desc': descriptor,
+            'IC95_inf': CI95_lower,
+            'IC95_sup': CI95_upper,
             'mean': mean,
             'sd': sd
         })
 
-    # Converte a lista de dicionários para DataFrame
-    df_resultado = pd.DataFrame(resultados)
-    return df_resultado
+    # Convert results into a new DataFrame
+    result_df = pd.DataFrame(results)
+    return result_df
