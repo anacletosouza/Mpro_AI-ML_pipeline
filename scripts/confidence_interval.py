@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.stats import t
 
-def t_student_interval(df):
+def t_student_interval(df,n):
     df = df.copy()  
     df["t_critical"] = df["n"].apply(lambda n: t.ppf(0.975, df=n - 1))
     df["IC95_inf"] = df["mean"] - df["t_critical"] * df["sd"] / np.sqrt(df["n"])
