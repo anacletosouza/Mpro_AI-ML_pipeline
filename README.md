@@ -1,5 +1,7 @@
 # **SARS-CoV-2 Main Protease Inhibitor Discovery Framework**
 
+Preprint of this study is available in: https://www.biorxiv.org/content/10.1101/2025.05.14.654028v1
+
 ## **1. Project Overview**
 
 Since the emergence of the COVID-19 pandemic, SARS-CoV-2 variants with increased transmissibility and immune evasion have driven successive waves of infection. As of 2025, Omicron subvariants dominate globally, with region-specific prevalence patterns. At the molecular level, viral replication depends on the main protease (**M<sub>pro</sub>**), a homodimeric cysteine protease comprising three distinct domains. The catalytic triad — **His41, Cys145, and Asp187** — plays a central role in the proteolytic process.
