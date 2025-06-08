@@ -1,0 +1,35 @@
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/3190.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_5  and  C4_6
+REMARK    2  A    between atoms: C7_9  and  O1_12
+REMARK    3  A    between atoms: O1_12  and  C10_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1      -2.199  -0.161  -0.162  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1      -1.769  -1.461  -0.467  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1      -0.457  -1.858  -0.186  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1       0.439  -0.958   0.386  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1       0.017   0.329   0.716  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1      -1.295   0.731   0.437  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  11
+ATOM      7  C1  UNL     1      -4.108   1.479  -0.213  0.00  0.00    +0.000 A 
+ATOM      8  N1  UNL     1      -5.365   1.542  -0.595  0.00  0.00    +0.000 NA
+ATOM      9  C2  UNL     1      -5.641   0.307  -1.103  0.00  0.00    +0.000 A 
+ATOM     10  C3  UNL     1      -4.537  -0.509  -1.027  0.00  0.00    +0.000 A 
+ATOM     11  N2  UNL     1      -3.536   0.246  -0.450  0.00  0.00    +0.000 N 
+ENDBRANCH   1  11
+BRANCH   4  12
+ATOM     12  O1  UNL     1       1.702  -1.427   0.665  0.00  0.00    +0.000 OA
+BRANCH  12  13
+ATOM     13  C10 UNL     1       2.763  -0.609   0.352  0.00  0.00    +0.000 A 
+ATOM     14  C11 UNL     1       2.908  -0.013  -0.903  0.00  0.00    +0.000 A 
+ATOM     15  C12 UNL     1       4.026   0.778  -1.169  0.00  0.00    +0.000 A 
+ATOM     16  C13 UNL     1       5.003   0.958  -0.189  0.00  0.00    +0.000 A 
+ATOM     17  C14 UNL     1       4.868   0.342   1.056  0.00  0.00    +0.000 A 
+ATOM     18  C15 UNL     1       3.751  -0.449   1.324  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 3

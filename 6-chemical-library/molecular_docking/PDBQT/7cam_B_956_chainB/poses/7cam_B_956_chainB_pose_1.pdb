@@ -1,0 +1,35 @@
+REMARK VINA RESULT:    -4.646      0.000      0.000
+REMARK INTER + INTRA:          -5.385
+REMARK INTER:                  -5.169
+REMARK INTRA:                  -0.216
+REMARK UNBOUND:                -0.196
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/956.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_5  and  C4_6
+REMARK    2  A    between atoms: N3_8  and  C5_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -37.708   3.151 -15.372  0.00  0.00    +0.000 C 
+ATOM      2  O1  UNL     1     -38.002   2.157 -14.717  0.00  0.00    +0.000 OA
+ATOM      3  N3  UNL     1     -37.330   3.106 -16.704  0.00  0.00    +0.000 N 
+ATOM      4  H4  UNL     1     -37.105   3.971 -17.166  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   1   9
+ATOM      5  N1  UNL     1     -37.267   5.669 -15.277  0.00  0.00    +0.000 N 
+ATOM      6  C1  UNL     1     -37.518   6.645 -14.355  0.00  0.00    +0.000 A 
+ATOM      7  N2  UNL     1     -38.117   6.160 -13.296  0.00  0.00    +0.000 NA
+ATOM      8  C2  UNL     1     -38.256   4.821 -13.546  0.00  0.00    +0.000 A 
+ATOM      9  C3  UNL     1     -37.735   4.472 -14.780  0.00  0.00    +0.000 A 
+ATOM     10  H1  UNL     1     -36.813   5.830 -16.163  0.00  0.00    +0.000 HD
+ENDBRANCH   1   9
+BRANCH   3  11
+ATOM     11  C5  UNL     1     -37.226   1.944 -17.504  0.00  0.00    +0.000 A 
+ATOM     12  C6  UNL     1     -38.351   1.466 -18.157  0.00  0.00    +0.000 A 
+ATOM     13  N4  UNL     1     -38.375   0.370 -18.945  0.00  0.00    +0.000 NA
+ATOM     14  C7  UNL     1     -37.205  -0.270 -19.078  0.00  0.00    +0.000 A 
+ATOM     15  N5  UNL     1     -36.048   0.087 -18.502  0.00  0.00    +0.000 NA
+ATOM     16  C8  UNL     1     -36.085   1.195 -17.723  0.00  0.00    +0.000 A 
+ENDBRANCH   3  11
+TORSDOF 2

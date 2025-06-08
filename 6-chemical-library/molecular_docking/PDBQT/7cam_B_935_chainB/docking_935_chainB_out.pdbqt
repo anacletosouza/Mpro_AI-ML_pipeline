@@ -1,0 +1,360 @@
+MODEL 1
+REMARK VINA RESULT:    -4.830      0.000      0.000
+REMARK INTER + INTRA:          -5.933
+REMARK INTER:                  -5.718
+REMARK INTRA:                  -0.215
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -24.111   4.875 -38.005  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -23.526   6.076 -38.353  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -24.068   6.892 -39.085  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -22.292   6.205 -37.756  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -23.461   4.113 -37.903  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -22.101   5.549 -37.013  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -21.373   7.259 -37.935  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -20.299   7.046 -38.802  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -19.369   8.061 -39.021  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -19.545   9.267 -38.364  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -20.569   9.514 -37.524  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -21.460   8.507 -37.326  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -25.393   4.531 -38.578  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -26.849   2.442 -39.296  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -26.702   2.371 -37.798  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -25.640   3.053 -38.629  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.695     25.462     26.971
+REMARK INTER + INTRA:          -5.774
+REMARK INTER:                  -5.529
+REMARK INTRA:                  -0.245
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -37.256   4.407 -15.727  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -37.496   3.072 -15.983  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -38.009   2.321 -15.166  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -37.095   2.744 -17.258  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -36.418   4.766 -16.155  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -36.905   3.526 -17.867  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -37.115   1.463 -17.846  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -36.042   0.608 -17.582  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -36.020  -0.673 -18.131  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -37.081  -1.064 -18.929  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -38.137  -0.272 -19.205  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -38.131   0.973 -18.660  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -37.561   4.933 -14.415  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -37.630   7.477 -15.139  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -37.760   7.451 -13.638  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -38.233   6.273 -14.456  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.647      4.655      8.900
+REMARK INTER + INTRA:          -5.718
+REMARK INTER:                  -5.503
+REMARK INTRA:                  -0.215
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -15.808   9.446 -39.069  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -17.133   9.304 -39.430  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -17.500   9.223 -40.593  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -17.936   9.257 -38.313  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -15.661  10.019 -38.255  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -17.453   9.111 -37.439  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -19.344   9.191 -38.287  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -19.940   7.937 -38.435  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -21.328   7.818 -38.405  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -22.083   8.964 -38.222  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -21.548  10.192 -38.071  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -20.192  10.280 -38.108  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -14.811   9.570 -40.109  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -12.245  10.216 -40.101  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -12.320   8.749 -40.438  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -13.409   9.389 -39.609  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.631      1.471      6.845
+REMARK INTER + INTRA:          -5.699
+REMARK INTER:                  -5.526
+REMARK INTRA:                  -0.172
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -22.656   6.021 -38.193  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -23.706   5.514 -38.932  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -23.794   5.653 -40.143  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -24.591   4.843 -38.118  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -22.913   6.337 -37.272  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -24.252   4.633 -37.191  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -25.814   4.258 -38.502  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -25.973   2.886 -38.296  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -27.168   2.262 -38.648  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -28.177   3.035 -39.196  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -28.067   4.362 -39.407  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -26.890   4.945 -39.058  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -21.645   6.807 -38.864  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -21.326   8.687 -37.030  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -20.405   9.036 -38.171  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -20.786   7.595 -37.922  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.384      3.064      7.754
+REMARK INTER + INTRA:          -5.409
+REMARK INTER:                  -5.124
+REMARK INTRA:                  -0.284
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -18.144   9.623 -38.114  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -19.365   9.233 -38.626  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -19.758   9.566 -39.736  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -20.032   8.429 -37.729  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -18.145   9.783 -37.120  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -19.473   8.075 -36.968  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -21.331   7.902 -37.871  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -21.456   6.529 -38.094  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -22.719   5.957 -38.230  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -23.828   6.781 -38.134  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -23.752   8.108 -37.915  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -22.508   8.641 -37.790  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -17.315  10.519 -38.890  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -17.948  13.087 -38.841  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -16.448  13.014 -38.960  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -17.207  11.890 -38.295  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.233     15.301     16.448
+REMARK INTER + INTRA:          -5.232
+REMARK INTER:                  -5.033
+REMARK INTRA:                  -0.199
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -33.179  -5.228 -37.475  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -34.325  -4.476 -37.637  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -35.002  -4.507 -38.654  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -34.577  -3.729 -36.508  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -32.459  -4.774 -36.938  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -34.051  -3.992 -35.689  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -35.613  -2.790 -36.331  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -35.264  -1.439 -36.272  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -36.253  -0.471 -36.109  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -37.571  -0.886 -36.013  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -37.950  -2.178 -36.070  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -36.966  -3.102 -36.226  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -32.717  -6.042 -38.577  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -32.611  -8.575 -37.819  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -32.645  -8.576 -39.325  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -33.271  -7.435 -38.558  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.123     14.576     16.406
+REMARK INTER + INTRA:          -5.102
+REMARK INTER:                  -4.881
+REMARK INTRA:                  -0.220
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -22.095  -3.516 -27.825  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -23.243  -4.281 -27.823  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -23.254  -5.464 -28.132  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -24.324  -3.531 -27.419  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -22.238  -2.557 -28.098  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -24.100  -2.645 -26.990  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -25.669  -3.949 -27.363  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -26.066  -4.720 -26.268  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -27.388  -5.149 -26.161  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -28.280  -4.787 -27.156  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -27.939  -4.040 -28.225  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -26.643  -3.638 -28.307  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -20.857  -4.115 -28.274  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -18.614  -4.233 -26.877  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -18.880  -5.626 -27.385  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -20.031  -4.674 -27.156  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.075     19.539     21.313
+REMARK INTER + INTRA:          -5.046
+REMARK INTER:                  -4.768
+REMARK INTRA:                  -0.278
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -22.574  -6.686 -19.733  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -23.454  -5.969 -20.519  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -24.613  -5.756 -20.194  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -22.834  -5.539 -21.670  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -21.918  -7.245 -20.252  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -21.827  -5.607 -21.671  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -23.431  -4.844 -22.741  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -23.339  -3.450 -22.745  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -23.903  -2.718 -23.788  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -24.542  -3.406 -24.805  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -24.648  -4.749 -24.842  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -24.093  -5.439 -23.811  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -23.055  -7.270 -18.501  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -21.525  -5.529 -17.224  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -21.546  -6.781 -16.386  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -22.715  -6.457 -17.288  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.952     15.377     16.929
+REMARK INTER + INTRA:          -4.901
+REMARK INTER:                  -4.645
+REMARK INTRA:                  -0.256
+REMARK UNBOUND:                -0.256
+REMARK  Name = /home/anacleto/Desktop/manuscript_Mpro/naturecomm/supplementary_file_S2/6-chemical-library/molecular_docking/3D_ligand_structure/935.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N1_5
+REMARK    3  A    between atoms: N2_8  and  C6_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  UNL     1     -20.190  -5.411 -26.527  0.00  0.00    +0.000 N 
+ATOM      2  C5  UNL     1     -21.247  -4.763 -27.133  0.00  0.00    +0.000 C 
+ATOM      3  O1  UNL     1     -21.108  -3.753 -27.809  0.00  0.00    +0.000 OA
+ATOM      4  N2  UNL     1     -22.429  -5.419 -26.875  0.00  0.00    +0.000 N 
+ATOM      5  H8  UNL     1     -20.414  -5.822 -25.636  0.00  0.00    +0.000 HD
+ATOM      6  H9  UNL     1     -22.334  -6.349 -26.495  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  UNL     1     -23.722  -5.014 -27.264  0.00  0.00    +0.000 A 
+ATOM      8  C7  UNL     1     -24.243  -5.546 -28.446  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     -25.522  -5.186 -28.868  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     -26.247  -4.302 -28.087  0.00  0.00    +0.000 A 
+ATOM     11  N3  UNL     1     -25.784  -3.770 -26.939  0.00  0.00    +0.000 NA
+ATOM     12  C10 UNL     1     -24.533  -4.135 -26.552  0.00  0.00    +0.000 A 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C4  UNL     1     -18.866  -4.842 -26.638  0.00  0.00    +0.000 C 
+BRANCH  13  16
+ATOM     14  C1  UNL     1     -18.103  -3.696 -24.379  0.00  0.00    +0.000 C 
+ATOM     15  C2  UNL     1     -16.845  -4.051 -25.129  0.00  0.00    +0.000 C 
+ATOM     16  C3  UNL     1     -18.106  -4.855 -25.346  0.00  0.00    +0.000 C 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 3
+ENDMDL
