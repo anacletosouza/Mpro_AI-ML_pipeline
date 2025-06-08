@@ -72,3 +72,6 @@ This pipeline supports **high-throughput virtual screening** of large chemical l
 * Combine **ligand-based (ML)** and **structure-based (docking/MD)** approaches
 * Validate predictions and guide antiviral compound optimization
 
+#### **8. Construction fragment-based chemical library**
+
+* Combine **ligand-based (ML)** and **molecular docking** approaches for estimating good fragments for hit-to-lead optimization
