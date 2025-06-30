@@ -1,6 +1,6 @@
 # **SARS-CoV-2 Main Protease Inhibitor Discovery Framework**
 
-Preprint of this study is available in: https://www.mdpi.com/1999-4915/17/7/935 (https://doi.org/10.3390/v17070935) 
+This study was published and it is available in: https://www.mdpi.com/1999-4915/17/7/935 (https://doi.org/10.3390/v17070935) 
 
 ## **1. Project Overview**
 
