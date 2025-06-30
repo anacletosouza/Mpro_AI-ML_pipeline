@@ -1,6 +1,6 @@
 # **SARS-CoV-2 Main Protease Inhibitor Discovery Framework**
 
-Preprint of this study is available in: https://www.biorxiv.org/content/10.1101/2025.05.14.654028v1
+Preprint of this study is available in: https://www.mdpi.com/1999-4915/17/7/935 (https://doi.org/10.3390/v17070935) 
 
 ## **1. Project Overview**
 
@@ -72,6 +72,3 @@ This pipeline supports **high-throughput virtual screening** of large chemical l
 * Combine **ligand-based (ML)** and **structure-based (docking/MD)** approaches
 * Validate predictions and guide antiviral compound optimization
 
-#### **8. Construction fragment-based chemical library**
-
-* Combine **ligand-based (ML)** and **molecular docking** approaches for estimating good fragments for hit-to-lead optimization
